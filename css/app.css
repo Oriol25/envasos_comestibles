@@ -9,9 +9,9 @@ body {
     background-color: #E8D6AB;
 }
 
-/** COLOR **/
-
-/*
-colors: #FFFFDF #E8D6AB #F0F0F0.
-
-*/
+.no-seleccionable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
