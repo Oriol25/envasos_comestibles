@@ -36,3 +36,10 @@ header{
   padding:0;
   height: 50px;
 }
+
+i{
+  font-size: 30px;
+  top: -5px;
+  position: relative;
+  color: orchid;
+}
