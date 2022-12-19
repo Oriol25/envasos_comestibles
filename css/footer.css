@@ -3,3 +3,20 @@ footer div{
     padding: 0;
     display: flex;
 }
+.footer{
+    background-color: #22B9A0;
+    padding: 10px;
+    font-weight: bold;
+    border-top: 1px solid #22B9A0;
+    border-bottom: 1px solid #22B9A0;
+    justify-content: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
