@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/contact.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Contact us</title>
 </head>
 <body>
@@ -42,10 +43,19 @@
                 <textarea id="message" name="message" cols="20" rows="10"></textarea>
             </div>
             <div>
-                <button class="submitContactForm" type="submit">Enviar</button>
+                <button class="submitContactForm" onclick="successAlert()" type="submit">Enviar</button>
             </div>
         </form>
     </div>
     <!-- !FORMULARIO -->
+    <script>
+        function successAlert() {
+            Swal.fire(
+                'Perfecto!',
+                'Formulario enviado correctamente',
+                'success'
+            )
+        }
+    </script>
 </body>
 </html>
