@@ -1,13 +1,11 @@
-
-body {
-    margin: 0px;
-    background-color: #FFFFDF;
-}
-
 #imgHeader {
     width: 100%;
     height: 10em;
     margin: 0px
+}
+
+#cuerpo {
+    margin: 1em 3em;
 }
 
 h1 {
@@ -18,6 +16,7 @@ h1 {
 section {
     display: flex;
     text-align: center;
+    margin: 2em 0;
 }
 
 section p {
@@ -44,7 +43,7 @@ section img {
 }
 
 #video {
-    margin: auto;
+    margin: 2em auto;
     width: 500px;
     height: 300px;
 }
