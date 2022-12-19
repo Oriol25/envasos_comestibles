@@ -8,38 +8,43 @@
     justify-content: right;
 }
 
-.links {
+#secondHeader .links {
     margin-left: 2em;
 }
 
-#goHome{
+#secondHeader #goHome{
     border: none;
     background-color: transparent;
 }
 
-a{
+#secondHeader a{
     color: black;
     text-decoration: none;
     font-size: 30px;
     cursor: pointer;
 }
 
-a:visited{
+#secondHeader a:visited{
     color: black;
 }
 
-#iconos i{
+#secondHeader #iconos {
+    margin-right: 1em;
+}
+
+#secondHeader #iconos i{
     padding: 10px;
     font-size: 45px;
     cursor: pointer;
 }
 
-#paypalButton{
+#secondHeader #paypalButton{
     color: rgb(51, 90, 219);
 }
-#carMarket{
+
+#secondHeader #carMarket{
     color: rgb(80, 148, 60);
 }
-#supportButton{
+#secondHeader #supportButton{
     color: rgb(94, 194, 194);
 }
