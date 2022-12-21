@@ -1,11 +1,61 @@
+/** FOOTER **/
+footer .valoracions, footer .footer {
+    background-color: #22B9A0;
+}
+
+footer .faq {
+    background-color: #1aaa92;
+}
+
 footer > div{
-    margin: 0;
-    padding: 0;
     display: flex;
 }
 
-.faq {
+footer p {
+    color: #ddd;
+}
+
+/**FOOTER 1 **/
+.valoracions {
+    flex-direction: column;
+}
+
+.valoracions .title {
+    margin-top: 1em;
     width: 100vw;
+    text-align: center;
+    color: #fff;
+}
+
+.valoracions .flex-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 2em 0;
+}
+  
+.valoracions .flex-container > div {
+   margin: auto 0;
+   justify-content: space-between;
+
+}
+
+.valoracions .flex-container .icon {
+    color: #fff;
+}
+
+.valoracions .flex-container .text {
+    width: 80%;
+}
+
+.valoracions .flex-container i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/** FOOTER 2 **/
+.faq {
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding-top: 2em;
@@ -30,6 +80,7 @@ footer > div{
     text-align: justify;
 }
 
+/** FOOTER 3 **/
 .footer{
     background-color: #22B9A0;
     padding: 10px;
@@ -42,8 +93,8 @@ footer > div{
     font-size: 20px;
 }
 
-.footer a{
-    color: black;
+.footer a {
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }

@@ -37,13 +37,11 @@ header a {
   margin: 3px;
 }
 
-header ul li i {
-  margin-left: 1em;
-}
-
 header i{
+  margin-left: 1em;
   font-size: 30px;
   top: -5px;
   position: relative;
   color: orchid;
+  cursor: pointer;
 }
