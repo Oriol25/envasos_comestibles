@@ -26,7 +26,7 @@
     width: 100%;
     height: 150px;
 
-    background-image: url('../img/producte.png');
+    background-image: url('../img/producte2.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -40,7 +40,7 @@
 }
 
 .imatge:hover {
-    background-image: url('../img/producte2.png');
+    background-image: url('../img/producte.png');
 
 }
 
